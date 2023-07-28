@@ -39,6 +39,11 @@ img {
     src: url(Font/Roboto-Bold.ttf);
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url(Font/Roboto-Regular.ttf);
+}
+
 /* MINICONT */
 .miniCont {
     background-color: #106EEA;
@@ -110,10 +115,12 @@ img {
 
 .texto {
     font: 400 24px 'OpenSans', sans-serif;
+    margin-top: 10px;
 }
 
 .titulo1 {
     display: flex;
+    justify-content: center;
 }
 
 .sobreNos {
@@ -141,7 +148,6 @@ img {
 }
 
 .sobreNos .texto {
-    margin-top: 10px;
     text-align: justify;
 }
 
@@ -155,7 +161,7 @@ img {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .caixas .imagem img {
@@ -170,5 +176,206 @@ img {
     text-align: center;
     padding: 20px 15px;
     background-color: #F1F6FE;
-    width: 250px;
+    width: 23%;
+}
+
+/* SERVIÇO */
+.servico {
+    margin: 170px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.servico-texto {
+    font: 600 24px 'Roboto-bold', sans-serif;
+}
+
+.servico-tipo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caixa2 {
+    border-radius: 10px;
+    border: 1px solid #8CA9CE;
+    text-align: center;
+    padding: 40px 15px;
+    margin: 20px 20px;
+    width: 280px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* EQUIPE */
+.equipe-texto {
+    margin: 200px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.pessoa .titulo {
+    font: 700 24px 'Roboto-bold', sans-serif;
+    margin-left: 0;
+}
+
+.pessoaText {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pessoaTexto {
+    font: 400 18px 'Roboto', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.pessoa {
+    border-radius: 7px;
+    border: 1px solid #000;
+}
+
+.textpeople {
+    text-align: justify;
+    margin-top: 60px;
+}
+
+/* CONTATO */
+.contato-texto {
+    margin: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.infoContato {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nomes {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    background-color: #E5E5E5;
+    padding: 18px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+#nomes {
+    width: 48%;
+}
+
+#email {
+    width: 48%;
+}
+
+::placeholder {
+    font: 600 20px 'Roboto', sans-serif;
+    color: #C1C1C1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    background-color: #E5E5E5;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 45px;
+    font: 600 20px 'Roboto', sans-serif;
+    color: #C1C1C1;
+    width: 587px;
+    height: 159px;
+    resize: none;
+}
+
+.caixa3 {
+    border-radius: 10px;
+    border: 1px solid #8CA9CE;
+    text-align: center;
+    padding: 35px 60px;
+    margin: 20px 20px;
+    margin-top: 0;
+    width: 420px;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.endereco .servico-texto {
+    font: 600 26px 'Roboto-bold', sans-serif;
+}
+
+.endereco-titulo {
+    margin: 20px;
+}
+
+.caixa3 .pessoaTexto {
+    font: 400 26px 'Roboto', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    font: 600 20px 'Roboto', sans-serif;
+    color: #fff;
+    background-color: #106EEA;
+    border-radius: 15px;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+/* FOOTER */
+#footer {
+    background-color: #1150A3;
+    padding: 40px;
+    margin-top: 130px;
+}
+
+#footer .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer .item {
+    color: #fff;
+}
+
+.sociais img {
+    width: 40px;
+}
+
+.sociais {
+    display: flex;
+}
+
+.social {
+    margin-right: 15px;
+}
+
+.textRodape {
+    font: 400 24px 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.conteudo2 {
+    margin-bottom: 15px;
+}
+
+.linha {
+    background-color: #1150A3;
+    height: 2px;
+    margin-top: 40px;
 }
